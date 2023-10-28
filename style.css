@@ -1,0 +1,367 @@
+.image{
+   width: 180px;
+}
+
+.nav-item .nav-link:hover{
+   background-color: darkgray;
+   color: white;
+   transform: translateY(-5px);
+   border-radius: 8px;
+}
+.navbar-nav .nav-link{
+   font-weight: 500;
+   color: #212529;
+   transition: transform 0.5s;
+}
+.navbar-nav .nav-link .active{
+   color: #4e57d4;
+}
+.btn{
+   width: 145px;  
+   text-transform: uppercase;
+   background-color: #4e57d4;
+}
+#hero{
+   background: linear-gradient(rgba(0,0,0,0.507),rgba(0,0,0,0.438)),url(images/banner2.webp);
+   background-repeat: none;
+   background-position: center;
+   background-size: cover;
+}
+.section-title{
+   margin-bottom: 100px;
+}
+.section-title .line{
+   width: 200px;
+   height: 4px;
+   background-color: rgb(142, 142, 142);
+   margin: 16px auto 24px auto;
+}
+.section-title h5{
+      max-width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+}
+.section-title p{
+   font-size: 23px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#resume{
+   border: 2px solid white;
+   box-shadow: #212529;
+}
+.fw-semibold{
+   gap: 0px 0px;
+}
+#p1{
+   font-size: 20px;
+}
+.sp{
+   font-size: 20px;
+    color: #ff451b;
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    padding: 8px 35px 7px;
+    white-space: nowrap;
+}
+#l2{
+   width: 190px;
+   height: 4px;
+   background-color: #ff451b;
+   margin: 16px 0px -50px 0px;
+}
+.sp1{ font-size: 20px;
+   color: #ff451b;
+   display: inline-block;
+   border: 1px solid #ddd;
+   border-radius: 50px;
+   padding: 8px 35px 7px;
+   white-space: nowrap;
+   
+}
+#l3{
+   width: 270px;
+   height: 4px;
+   background-color: #ff451b;
+   margin: 16px 0px -50px 0px;
+}
+#con{
+  width:100%;
+  height: 100vh;
+  display: flex;
+  }
+  .skills h4{
+   font-weight: 600;
+   letter-spacing: 1px;
+   margin-top: 40px;
+   margin-bottom: 5px; 
+   font-size: 22px;
+  }
+  .progress-bar{
+   background: #959595;
+   width: 600px;
+   height: 15px;
+   border-radius: 5px;
+  }
+  .progress-bar div{
+   height: 10px;
+   border-radius: 5px;
+   width: 0%;
+  }  
+  .progress-bar div span{
+   height: 40px;
+   width: 40px;
+   border-radius: 50%;
+   background: black;
+   float: right;
+   margin-top: -15px;
+   margin-right: -20px;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+  .core{
+   background: #ff451b;
+   animation: core 1s linear forwards;
+  }
+  .advance{
+   background: #ff451b;
+   animation: advance 1s linear forwards;
+  }
+  .sql{
+   background: #ff451b;
+   animation: sql 1s linear forwards;
+  }
+  .html{
+   background: #ff451b;
+   animation: html 1s linear forwards;
+  }
+  .css{
+   background: #ff451b;
+   animation: css 1s linear forwards;
+  }
+  .boot{
+   background: #ff451b;
+   animation: boot 1s linear forwards;
+  }
+  .js{
+   background: #ff451b;
+   animation: js 1s linear forwards;
+  }
+  .rj{
+   background: #ff451b;
+   animation: rj 1s linear forwards;
+  }
+  .jq{
+   background: #ff451b;
+   animation: jq 1s linear forwards;
+  }
+.core span{
+   border: 2px solid black;
+}
+.advance span{
+   border: 2px solid black;
+}
+.sql span{
+   border: 2px solid black;
+}
+.html span{
+   border: 2px solid black;
+}
+.css span{
+   border: 2px solid black;
+}
+.boot span{
+   border: 2px solid black;
+}
+.js span{
+   border: 2px solid black;
+}
+.rj span{
+   border: 2px solid black;
+}
+.jq span{
+   border: 2px solid black;
+}
+@keyframes core{
+100%{
+   width: 85%;
+}
+}
+@keyframes advance{
+   100%{
+      width: 60%;
+   }
+   }
+   @keyframes sql{
+      100%{
+         width: 90%;
+      }
+      }
+      @keyframes html{
+         100%{
+            width: 90%;
+         }
+         }
+         @keyframes css{
+            100%{
+               width: 90%;
+            }
+            }
+            @keyframes boot{
+               100%{
+                  width: 90%;
+               }
+               }
+               @keyframes js{
+                  100%{
+                     width: 40%;
+                  }
+                  }
+                  @keyframes rj{
+                     100%{
+                        width: 30%;
+                     }
+                     }
+                     @keyframes jq{
+                        100%{
+                           width: 70%;
+                        }
+                        }
+                        .theme-shadow{
+                           box-shadow:  0 4px 20px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                        }
+.service{
+   position:relative;
+   overflow: hidden;
+   z-index: 2;
+}
+.service::after{
+   content: "";
+   width: 40px;
+   height: 40px;
+   background:rgb(174, 174, 174,0.1);
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   transition: width 0.5s, height 0.5s , transform 0.5s ;
+}
+.service:hover::after{
+   width: 100%;
+   height: 100%;
+   background: rgb(220, 66, 66);
+   z-index: -1;
+}
+.service:hover h5,.service p{
+   color: white;
+}
+#ser1{
+   height: 400px;
+}
+#nobleimg{
+   width: 410px;
+   height: 250px;
+}
+.image-zoom{
+position: relative;
+overflow: hidden;
+}
+.image-zoom-wrapper{
+   overflow: hidden;
+   position: relative;
+}
+.image-zoom-wrapper img{
+   transition: transform .5s;
+}
+.image-zoom:hover .image-zoom-wrapper img{
+   transform: scale(1.8);
+}
+.portfolio-item .iconbox img{
+   background: #2196F3;
+   color: white;
+   position: absolute;
+   top: 50%;
+   left: 44%;
+   width: 44px;
+   opacity: 0;
+}
+.portfolio-item:hover .iconbox img{
+    opacity: 1;
+    top: 50%;
+}
+.contact-left{
+   flex-basis: 35%;
+}
+.contact-right{
+   flex-basis: 60%;
+}
+.contact-left p{
+   margin-top: 30px;
+}
+.contact-left p i{
+   color: white;
+   margin-right: 15px;
+   font-size: 20px;
+}
+.contact-left p a{
+   text-decoration: none;
+   color: white;
+   font-size: 22px;
+}
+.contact-left p{
+   font-size: 22px;
+}
+
+.social-icons{
+  margin-top: 30px;
+}
+.social-icons a{
+   text-decoration: none;
+   font-size: 35px;
+   margin-right: 15px;
+   color: white; 
+   display: inline-block;
+     transition: transform 0.5s;
+}
+.social-icons a:hover{
+   color: rgb(237, 116, 23);
+   transform: translateY(-10px);
+}
+#btn{
+   background: white;
+   width: 150px;
+   border-radius: 10px;
+   height: 45px;
+   transition: transform 0.5s;
+}
+#btn:hover{
+   background:rgb(237, 116, 23) ;
+   color: white;
+   transform: translateY(15px);
+}
+.contact-right form{
+   width: 100%;
+}
+form input, form textarea{
+   width: 100%;
+   border: 0;
+   outline: none;
+   background: #515050;
+   padding: 15px;
+   margin: 15px 0;
+   color: #fff;
+   font-size: 18px;
+   border-radius: 6px;
+}
+.contact-left h1{
+   font-size: 45px;
+}
+form .btn2{
+   font-size: 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mb-0{
+   font-size: 18px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
